@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #36393a;
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-40);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <filter id="drop-shadow-40" x="3.36" y="3.5" width="69" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood flood-color="#231f20" flood-opacity=".1"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="51.84" y1="56.98" x2="18.4" y2="11.55" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="circles">
+    <g class="cls-2">
+      <circle class="cls-3" cx="37.5" cy="37.5" r="27.43"/>
+    </g>
+  </g>
+  <g id="lineart">
+    <g>
+      <g>
+        <path class="cls-1" d="M37.25,39.56c-4.44,0-8.06-3.62-8.06-8.06,0-.99.18-1.96.53-2.88.28-.73.66-1.41,1.13-2.02l.4.3c-.45.58-.8,1.22-1.06,1.9-.33.86-.5,1.77-.5,2.7,0,4.17,3.39,7.56,7.56,7.56s7.56-3.39,7.56-7.56c0-.86-.14-1.7-.42-2.5-.3-.84-.74-1.63-1.31-2.32l.38-.32c.61.74,1.08,1.57,1.4,2.47.3.86.45,1.75.45,2.67,0,4.44-3.62,8.06-8.06,8.06Z"/>
+        <path class="cls-1" d="M51.62,56.58c-.14,0-.25-.11-.25-.25v-3.6c0-5.67-4.62-10.29-10.29-10.29h-7.65c-5.67,0-10.29,4.62-10.29,10.29v3.6c0,.14-.11.25-.25.25s-.25-.11-.25-.25v-3.6c0-5.95,4.84-10.79,10.79-10.79h7.65c5.95,0,10.79,4.84,10.79,10.79v3.6c0,.14-.11.25-.25.25Z"/>
+      </g>
+      <g>
+        <path class="cls-1" d="M43.36,27.03s-.09,0-.13-.02c-.91-.27-4.02-1.15-5.99-1.15-2.32,0-5.16.87-5.97,1.13-.14.04-.29.02-.4-.06s-.19-.22-.19-.37v-5.19c0-.21.14-.39.34-.44.93-.24,4.14-1,6.22-1s5.29.77,6.22,1c.2.05.34.23.34.44v5.2c0,.14-.07.28-.18.36-.08.06-.17.09-.26.09ZM37.24,25.36c1.99,0,5.06.85,6.06,1.15v-5.09c-.74-.19-4.03-.98-6.06-.98s-5.32.79-6.06.98v5.08c.91-.29,3.72-1.14,6.06-1.14Z"/>
+        <path class="cls-1" d="M43.58,23.88l-.22-.45,6-2.87-12.09-4.4-12.65,4.35,6.29,2.9-.21.45-6.66-3.07c-.13-.06-.2-.19-.2-.33,0-.14.1-.26.23-.3l13.17-4.53.14.03,12.51,4.54c.13.05.22.17.22.3s-.07.26-.19.32l-6.34,3.03Z"/>
+        <rect class="cls-1" x="48.55" y="21.18" width=".5" height="2.85"/>
+        <circle class="cls-1" cx="48.8" cy="24.3" r=".89"/>
+      </g>
+    </g>
+  </g>
+</svg>
